@@ -13,6 +13,7 @@ class Post
     @@all
   end
 
+<<<<<<< HEAD
   def author_name
     if @author == nil
       return nil
@@ -20,4 +21,11 @@ class Post
       self.author.name
     end
   end
+=======
+  
+    
+ 
+  
+
+>>>>>>> 2f3e208dd3ece1739ff2e1079942c9e8a7076c9f
 end
